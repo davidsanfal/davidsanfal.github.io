@@ -71,6 +71,11 @@ table{
 	border-top: 4px solid #3c3c3c;
 }
 
+li{
+	display: inline;
+	padding: 1%;
+}
+
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
@@ -181,12 +186,11 @@ img.skillImage.circle_5:hover{
 }
 
 #header_wrap {
-  background: #3c3c3c;
+	position: fixed;
+	background: #3c3c3c;
+	z-index: 1;
 }
 
-#header_wrap .inner {
-  padding: 50px 10px 30px 10px;
-}
 
 #project_title {
   margin: 0;
@@ -225,12 +229,14 @@ img.skillImage.circle_5:hover{
 }
 
 #abaut_me_content_wrap {
+	margin-top: 10%;
 	background: #fff;
 	margin-bottom: 40px;
 }
 
 #experience_content_wrap {
 	background: #cccccc;
+	margin-bottom: 40px;
 }
 
 #main_content {
