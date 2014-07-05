@@ -58,6 +58,12 @@ table.center {
     margin-right:auto;
   }
 
+#table_content{
+	background: #F6F6F6;
+	padding: 10px;
+	border-radius: 10px;
+}
+
 td{
 	padding: 1%;
 }
@@ -74,6 +80,8 @@ table{
 li{
 	display: inline;
 	padding: 1%;
+	background: #fff;
+	border-radius: 8px;
 }
 
 /*******************************************************************************
@@ -85,7 +93,8 @@ Full-Width Styles
 }
 
 .inner {
-  max-width: 990px;
+  max-width: 1100px;
+  min-width: 600px;
   position: relative;
   padding: 20px 20px;
   margin: 0 auto;
@@ -104,15 +113,6 @@ Full-Width Styles
 .skill:hover{
 	background:#549c7e;
 	transition: all 0.5s;
-}
-
-.githubPhoto {
-	width: 40%;
-    margin-right: 40px;
-	padding: 5px;
-	border: 2px solid #c3c3c3;
-	border-radius: 10px;
-	float: left;
 }
 
 .skillImage {
@@ -174,12 +174,17 @@ img.skillImage.circle_5:hover{
 	width: 100%;
 }
 #ContainerProfile{
-  width: 47%;
+  background: #F6F6F6;
+  padding: 1%;
+  border-radius: 10px;
+  width: 44%;
   height: auto;
   float: left;
-  margin-right: 6%;
 }
 #ContainerSkills{
+  background: #F6F6F6;
+  padding: 1%;
+  border-radius: 10px;
   width: 47%;
   height: auto;
   float: right;
@@ -193,6 +198,7 @@ img.skillImage.circle_5:hover{
 
 
 #project_title {
+  white-space: nowrap;
   margin: 0;
   color: #fff;
   font-size: 60px;
@@ -229,14 +235,16 @@ img.skillImage.circle_5:hover{
 }
 
 #abaut_me_content_wrap {
-	margin-top: 10%;
+	padding-top: 100px;
 	background: #fff;
-	margin-bottom: 40px;
+	padding-bottom: 40px;
+	border-bottom: solid #3c3c3c;
 }
 
 #experience_content_wrap {
-	background: #cccccc;
-	margin-bottom: 40px;
+	padding-top: 100px;
+	background: #F6F6F6;
+	padding-bottom: 40px;
 }
 
 #main_content {
@@ -267,6 +275,8 @@ Full-Width Styles
 *******************************************************************************/
 
 .ss-style-triangles {
+	border-bottom: solid #3c3c3c;
+	border-right: solid #3c3c3c;
 	position: absolute;
 	left: 50%;
     width: 80px;
