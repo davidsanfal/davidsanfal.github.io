@@ -220,6 +220,7 @@ img.skillImage.circle_5:hover{
 	position: fixed;
 	background: #3c3c3c;
 	z-index: 1;
+	border-bottom: 1px solid #111;
 }
 
 
@@ -271,7 +272,6 @@ img.skillImage.circle_5:hover{
 	padding-top: 100px;
 	background: #efefef;
 	padding-bottom: 40px;
-	border-bottom: solid #3c3c3c;
 }
 
 #main_content {
