@@ -45,7 +45,7 @@ footer p {
 }
 
 footer a {
-  color: #F2F2F2;
+  color: #f2f2f2;
   text-decoration: underline;
 }
 
@@ -59,7 +59,7 @@ table.center {
   }
 
 #table_content{
-	background: #F6F6F6;
+	background: #f6f6f6;
 	padding: 10px;
 	border-radius: 10px;
 }
@@ -80,14 +80,34 @@ table{
 li{
 	display: inline;
 	padding: 1%;
-	background: #fff;
-	border-radius: 8px;
+}
+
+li a{
+	text-decoration: none;
+}
+
+#li_tag {
+  color: #fff;
+  font-size: 28px;
+  display: inline;
+}
+
+header ul{
+	display: inline;
+}
+
+#social img{
+	text-align:center;
+	margin: 2px;
+	float: left;
 }
 
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
-
+#social{
+	float:right;
+}
 .outer {
   width: 100%;
 }
@@ -99,6 +119,12 @@ Full-Width Styles
   padding: 20px 20px;
   margin: 0 auto;
   overflow: hidden;
+}
+
+header{
+	margin: 0 auto;
+	max-width: 1100px;
+	min-width: 600px;
 }
 
 .skill {
@@ -174,7 +200,7 @@ img.skillImage.circle_5:hover{
 	width: 100%;
 }
 #ContainerProfile{
-  background: #F6F6F6;
+  background: #efefef;
   padding: 1%;
   border-radius: 10px;
   width: 44%;
@@ -182,7 +208,7 @@ img.skillImage.circle_5:hover{
   float: left;
 }
 #ContainerSkills{
-  background: #F6F6F6;
+  background: #efefef;
   padding: 1%;
   border-radius: 10px;
   width: 47%;
@@ -243,8 +269,9 @@ img.skillImage.circle_5:hover{
 
 #experience_content_wrap {
 	padding-top: 100px;
-	background: #F6F6F6;
+	background: #efefef;
 	padding-bottom: 40px;
+	border-bottom: solid #3c3c3c;
 }
 
 #main_content {
@@ -274,7 +301,7 @@ img.skillImage.circle_5:hover{
 Full-Width Styles
 *******************************************************************************/
 
-.ss-style-triangles {
+.triangles {
 	border-bottom: solid #3c3c3c;
 	border-right: solid #3c3c3c;
 	position: absolute;
