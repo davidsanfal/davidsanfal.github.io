@@ -73,8 +73,8 @@ td.little{
 	border-right: 4px solid #3c3c3c; 
 }
 
-table{
-	border-top: 4px solid #3c3c3c;
+ul{
+	padding: 2px 2px 4px 4px;
 }
 
 li{
@@ -87,6 +87,8 @@ li a{
 }
 
 #li_tag {
+  background: #3c3c3c;
+  border-bottom: 1px solid #111;
   color: #fff;
   font-size: 24px;
   display: inline;
@@ -100,15 +102,28 @@ header ul{
 }
 
 #social img{
-	margin-left: 4px;
+	margin: 4px;
 	float: left;
+}
+
+#menu{
+	width: 328px;
+	height: 42px;
+	background: #3c3c3c;
+	border-radius: 0px 0px 6px 6px;
+	box-shadow: 0px 0px 10px #000;
 }
 
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
 #social{
-	float:right;
+	position: absolute;
+	max-width: 44px;
+	top: 60px;
+	left: 0px;
+	box-shadow: 0px 0px 10px #000;
+	border-radius: 0px 6px 6px 0px;
 }
 .outer {
   width: 100%;
@@ -125,10 +140,8 @@ Full-Width Styles
 
 header{
 	margin: 0 auto;
-	margin-top: 2px;
-	margin-bottom: 2px;
 	max-width: 1100px;
-	min-width: 600px;
+	min-width: 500px;
 }
 
 .skill {
@@ -182,6 +195,7 @@ img.skillImage.circle_5:hover{
 	transition: background-size 0.5s;
 }
 
+
 .ProfileTitle {
 	line-height: 22px;
     margin-top: 0px;
@@ -197,6 +211,22 @@ img.skillImage.circle_5:hover{
     font-weight: lighter;
     font-size: 28px;
 	text-align: center;
+}
+
+.ExperienceTitle {
+	line-height: 22px;
+    margin-top: 0px;
+    margin: 10px;
+    font-weight: lighter;
+    font-size: 25px;
+	
+}
+
+.SubExperienceTitle {
+	line-height: 22px;
+	margin: 10px;
+    font-weight: lighter;
+    font-size: 18px;
 }
 
 #ContainerSubSkills{
@@ -224,9 +254,7 @@ img.skillImage.circle_5:hover{
 
 #header_wrap {
 	position: fixed;
-	background: #3c3c3c;
 	z-index: 1;
-	border-bottom: 1px solid #111;
 }
 
 #project_title {
@@ -262,7 +290,6 @@ img.skillImage.circle_5:hover{
 }
 
 #main_content_wrap {
-	border-top: 1px solid #111;
 	border-bottom: 1px solid #111;
 }
 
@@ -277,6 +304,13 @@ img.skillImage.circle_5:hover{
 	padding-top: 100px;
 	background: #efefef;
 	padding-bottom: 40px;
+	border-bottom: solid #3c3c3c;
+}
+
+#project_content_wrap {
+	padding-top: 100px;
+	background: #fff;
+	padding-bottom: 40px;
 }
 
 #main_content {
@@ -285,6 +319,14 @@ img.skillImage.circle_5:hover{
 
 #footer_wrap {
   background: #3c3c3c;
+}
+
+#experience{
+	padding: 12px;
+	margin-bottom: 15px;
+	background: #fff;
+	border-radius: 20px 0px 20px 0px;
+	box-shadow: 0px 0px 10px #888888;
 }
 
 .work{
@@ -305,7 +347,6 @@ img.skillImage.circle_5:hover{
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
-
 .triangles {
 	border-bottom: solid #3c3c3c;
 	border-right: solid #3c3c3c;
