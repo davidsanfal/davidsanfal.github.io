@@ -310,6 +310,7 @@ img.skillImage.circle_5:hover{
 	padding-bottom: 40px;
 	border-bottom: solid #3c3c3c;
 	background: url('../images/PRUEBA.JPG') no-repeat fixed 100% 40%;
+	
 }
 
 #experience_content_wrap {
@@ -322,7 +323,7 @@ img.skillImage.circle_5:hover{
 #project_content_wrap {
 	padding-top: 100px;
 	padding-bottom: 40px;
-	background: url('../images/projects.jpg') fixed;
+	background: #fff;
 }
 
 #main_content {
@@ -342,12 +343,12 @@ img.skillImage.circle_5:hover{
 }
 
 #project{
-	width: 27%;
-	padding: 3%;
+	width: 31%;
+	margin: 1%;
 	float: left;
 	border-radius: 10px;
 	box-shadow: 0px 0px 10px #888888;
-	background: #fff;
+	background: #efefef;
 }
 
 #project img{
