@@ -231,6 +231,7 @@ img.skillImage.circle_5:hover{
 #ContainerProfile{
   background: #efefef;
   padding: 1%;
+  margin: 2%;
   margin-right: 54%;
   border-radius: 10px;
   width: 44%;
@@ -241,7 +242,7 @@ img.skillImage.circle_5:hover{
 #ContainerSkills{
   background: #efefef;
   padding: 1%;
-  margin-top: 4%;
+  margin: 2%;
   margin-right: 54%;
   border-radius: 10px;
   width: 44%;
@@ -296,8 +297,8 @@ img.skillImage.circle_5:hover{
 	background: #fff;
 	padding-bottom: 40px;
 	border-bottom: solid #3c3c3c;
-	background: url('../images/prueba.jpg') no-repeat fixed 100% 40%;
-	
+	background: url('../images/color_bg.jpg') no-repeat fixed 100% 40%;
+	background-size: cover;
 }
 
 #experience_content_wrap {
