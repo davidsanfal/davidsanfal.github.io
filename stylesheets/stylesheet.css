@@ -49,35 +49,24 @@ footer a {
   text-decoration: underline;
 }
 
-#ContainerSkills p{
-	text-align: center;
+a {
+  color: inherit;
+  text-decoration: underline;
 }
 
-table.center {
-    margin-left:auto; 
-    margin-right:auto;
-  }
-
-#table_content{
-	background: #f6f6f6;
-	padding: 10px;
-	border-radius: 10px;
+#ContainerSkills p{
+	text-align: center;
 }
 
 td{
 	padding: 1%;
 }
 
-td.little{
-	width: 25%;
-	border-right: 4px solid #3c3c3c; 
-}
-
-ul{
+header ul{
 	padding: 2px 2px 4px 4px;
 }
 
-li{
+header li{
 	display: inline;
 	padding: 2px;
 }
@@ -130,18 +119,15 @@ Full-Width Styles
 }
 
 .inner {
-  max-width: 1100px;
   min-width: 600px;
-  position: relative;
-  padding: 20px 20px;
   margin: 0 auto;
-  overflow: hidden;
+  padding: 10px 20px;
 }
 
 header{
 	margin: 0 auto;
 	max-width: 1100px;
-	min-width: 500px;
+	min-width: 600px;
 }
 
 .skill {
@@ -227,6 +213,7 @@ img.skillImage.circle_5:hover{
     margin: 10px;
     font-weight: lighter;
     font-size: 25px;
+	white-space: nowrap;
 	
 }
 
@@ -244,6 +231,7 @@ img.skillImage.circle_5:hover{
 #ContainerProfile{
   background: #efefef;
   padding: 1%;
+  margin: 2%;
   margin-right: 54%;
   border-radius: 10px;
   width: 44%;
@@ -254,7 +242,7 @@ img.skillImage.circle_5:hover{
 #ContainerSkills{
   background: #efefef;
   padding: 1%;
-  margin-top: 4%;
+  margin: 2%;
   margin-right: 54%;
   border-radius: 10px;
   width: 44%;
@@ -309,8 +297,8 @@ img.skillImage.circle_5:hover{
 	background: #fff;
 	padding-bottom: 40px;
 	border-bottom: solid #3c3c3c;
-	background: url('https://raw.githubusercontent.com/davidsanfal/davidsanfal.github.io/master/images/prueba.jpg') no-repeat fixed 100% 40%;
-	
+	background: url('../images/color_bg.jpg') no-repeat fixed 100% 40%;
+	background-size: cover;
 }
 
 #experience_content_wrap {
@@ -327,14 +315,17 @@ img.skillImage.circle_5:hover{
 }
 
 #main_content {
-	padding-top: 40px;
+	max-width: 1100px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
 }
 
 #footer_wrap {
   background: #3c3c3c;
 }
 
-#experience{
+#experience_info{
 	padding: 12px;
 	margin-bottom: 15px;
 	background: #fff;
@@ -345,10 +336,14 @@ img.skillImage.circle_5:hover{
 #project{
 	width: 31%;
 	margin: 1%;
+	padding: 1%;
 	float: left;
 	border-radius: 10px;
-	box-shadow: 0px 0px 10px #888888;
+	border: solid 2px #888888;
 	background: #efefef;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
 }
 
 #project img{
@@ -356,6 +351,10 @@ img.skillImage.circle_5:hover{
 	height: 100%;
 	border-radius: 100%;
 	box-shadow: 0px 0px 1px #888888;
+}
+
+#project p{
+	text-align: center;
 }
 
 .work{
