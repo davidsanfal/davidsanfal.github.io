@@ -1,0 +1,61 @@
+# Site wide configuration
+
+title:            Home
+locale:           en_US
+# url:              http://davidsanfal.github.io # remote (deploy)
+url:              http://127.0.0.1:4000/ # local (debugging)              
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: David Sánchez Falero
+  avatar: min.png
+  bio: "Software Engineer. Interesting in Machine Learning, Python, Robotic and Mountain Gorillas."
+  email: david.sanchez.falero@gmail.com
+  disqus-shortname: 
+  twitter: David_SanFal
+  facebook: #username
+  google: 
+    plus: DavidSanchezFalero
+    analytics: 
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: davidsanfal
+  stackoverflow: 3220065/davidsanfal
+  linkedin: davidsanchezfalero
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
