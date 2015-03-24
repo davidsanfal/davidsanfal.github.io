@@ -3,7 +3,7 @@ layout: home
 excerpt: "Home"
 tags: [home]
 image:
-  feature: me.png
+  feature: blue.png
   credit: David Sánchez Falero
   creditlink:
 ---

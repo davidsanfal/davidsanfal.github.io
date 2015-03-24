@@ -242,6 +242,14 @@ $button-size: 1.5rem;
 			@include grid(12,4.5);
 		}
 	}
+	//Override the default layout of paragraphs to let an space between them and no extra indent on first 
+	//line
+	article {
+		p+p {
+			text-indent: 0rem;
+			margin-top: 1rem;
+		}
+	}
 }
 
 /* Index listing specific styling */
