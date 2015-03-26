@@ -92,6 +92,11 @@
 				    
 				        
 				    
+				    <li><a href="http://127.0.0.1:4000//cv/" >CV</a></li>
+				
+				    
+				        
+				    
 				    <li><a href="http://127.0.0.1:4000//posts/" >Posts</a></li>
 				
 		    </ul>
@@ -152,58 +157,82 @@
     <div class="article-wrap">
       <p>My name is David Sánchez Falero. Software Engineer. Interesting in Machine Learning, Deep Learning, Python, Robotic and Mountain Gorillas. Co-organizer of C/C++ Madrid.</p>
 
-<h2 id="cv">CV</h2>
+<h2 id="why-python">Why Python?</h2>
 
-<h3 id="education">EDUCATION</h3>
+<p>I started with Python in 2013 and I fell in love. I love the way of code python, how you can prototype all you want in just hours.</p>
 
-<h4 id="universidad-de-leon">UNIVERSIDAD DE LEON</h4>
+<p>I know that it isn’t as fast as C++, but it is more agile and pretty. It is impressive the few time you need to convert an idea in code.</p>
 
-<p>(2014 - currently)</p>
+<p>For example, in the following codes you have an example with fibonacci in python (6 lines), C++ (23 lines), Java (13 lines).</p>
 
-<p><a href="http://www.unileon.es/">Engineering degree, in Industrial Electronics and Atomation</a>.</p>
+<p><strong>fibonacci.py</strong></p>
 
-<h4 id="universidad-politcnica-de-madrid">UNIVERSIDAD POLITÉCNICA DE MADRID</h4>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">fib</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span>
+    <span class="k">while</span> <span class="n">a</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">:</span>
+        <span class="k">print</span> <span class="n">a</span>
+        <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="n">b</span><span class="p">,</span> <span class="n">a</span><span class="o">+</span><span class="n">b</span>
+<span class="n">fib</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span></code></pre></div>
 
-<p>(2007 - 2014)</p>
+<p><strong>fibonacci.cpp</strong></p>
 
-<p><a href="http://www.etsidi.upm.es/ETSIDI">Industrial Technical Engineer in  Industrial Electronics, Industrial and Advanced Atomation and Industrial Computing, (7,42)</a>. Final thesis, 10 proposed to honors degree.</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="cp">#include&lt;iostream&gt;</span>
+ 
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
 
-<h3 id="experience">EXPERIENCE</h3>
+<span class="n">fib</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">){</span> 
+    <span class="kt">int</span> <span class="n">c</span><span class="p">,</span> <span class="n">first</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">second</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">next</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span> <span class="n">c</span> <span class="o">=</span> <span class="mi">0</span> <span class="p">;</span> <span class="n">c</span> <span class="o">&lt;</span> <span class="n">n</span> <span class="p">;</span> <span class="n">c</span><span class="o">++</span> <span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span> <span class="n">c</span> <span class="o">&lt;=</span> <span class="mi">1</span> <span class="p">)</span>
+        <span class="n">next</span> <span class="o">=</span> <span class="n">c</span><span class="p">;</span>
+    <span class="k">else</span>
+    <span class="p">{</span>
+        <span class="n">next</span> <span class="o">=</span> <span class="n">first</span> <span class="o">+</span> <span class="n">second</span><span class="p">;</span>
+        <span class="n">first</span> <span class="o">=</span> <span class="n">second</span><span class="p">;</span>
+        <span class="n">second</span> <span class="o">=</span> <span class="n">next</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">next</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+<span class="p">}</span>
 
-<h4 id="biicode-innovation-sl-software-engineerhttpswwwbiicodecom"><a href="https://www.biicode.com/">BIICODE INNOVATION S.L. (SOFTWARE ENGINEER)</a></h4>
+<span class="n">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">fib</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
 
-<p><strong>Jun. 2013 - currently</strong></p>
+<p><strong>fibonacci.java</strong></p>
 
-<p>Development of a file oriented dependency manager for C/C++, and other languages like Node.js.</p>
+<div class="highlight"><pre><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Fibona</span> <span class="o">{</span>
 
-<p>Development of a CLI (Python), Backend (Python, Bottle), Front-end (HTML, CSS y AngularJS) y web-testing (Selenium).
-Management of the continuous integration system (Buildbot, Docker and CoreOS) for testing, package y deploy of the client, server and web.</p>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+    <span class="kt">int</span> <span class="n">elemento</span> <span class="o">=</span> <span class="mi">1000</span><span class="o">,</span> <span class="n">ant</span> <span class="o">=</span> <span class="mi">0</span><span class="o">,</span> <span class="n">act</span> <span class="o">=</span> <span class="mi">1</span><span class="o">,</span> <span class="n">next</span> <span class="o">=</span> <span class="mi">1</span><span class="o">;</span>
 
-<p>Study of new languages (Python, C/C++, Fortran, node.js, Java) and tools (Cmake, Gradle, Ant). Development of cross compilation tools (Arduino y Raspberry Pi).</p>
+    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">&quot;0, &quot;</span><span class="o">);</span>
+    <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">elemento</span> <span class="o">-</span> <span class="mi">1</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="n">next</span> <span class="o">+</span> <span class="s">&quot; &quot;</span><span class="o">);</span>
+        <span class="n">next</span> <span class="o">=</span> <span class="n">act</span> <span class="o">+</span> <span class="n">ant</span><span class="o">;</span>
+        <span class="n">ant</span> <span class="o">=</span> <span class="n">act</span><span class="o">;</span>
+        <span class="n">act</span> <span class="o">=</span> <span class="n">next</span><span class="o">;</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+<span class="o">}</span></code></pre></div>
 
-<h3 id="skills">SKILLS:</h3>
+<h2 id="why-machine-learning">Why Machine Learning?</h2>
 
-<ul>
-  <li><strong>Languages:</strong> English, Spanish.</li>
-  <li><strong>Programming Languages:</strong> Python, PyQt , C/C++ , CMake, Arduino, HTML, CSS, Javascript.</li>
-  <li><strong>Tools:</strong> Git, buildbot, TravisCI, Appveyor, CoreOS, Docker, AngularJS, Eclipse, Readmine.</li>
-  <li><strong>Systems:</strong> Linux (Debian, RPM, Raspbian), Windows and Mac.</li>
-  <li><strong>Other:</strong> 3D design and printing, Autodesk Inventor, robotics, embedded systems.</li>
-</ul>
+<p>When I was young I dream with the idea of build my own Robot with full intelillence.</p>
 
-<h3 id="other-experience">OTHER EXPERIENCE:</h3>
+<h2 id="why-robotics">Why Robotics?</h2>
 
-<ul>
-  <li><a href="www.meetup.com/Madrid-C-Cpp">Co-organizer of C/C++ Madrid</a>.</li>
-  <li>I colaborate with <a href="http://gorillafund.org/">“The Dian Fossey Gorilla Fund International”</a>.</li>
-</ul>
+<h2 id="what-can-i-spect-learning-it">What can I spect learning it?</h2>
 
-<h3 id="interests">INTERESTS:</h3>
+<p>Maths + Hacking + expertise</p>
 
-<ul>
-  <li><strong>Professionals:</strong> Machine Learning, Python, Backend, Software testing and Continuous integration.</li>
-  <li><strong>Personal:</strong> travel, robotics and 3D design and printing.</li>
-</ul>
+<p class="image-pull-center"><img src="http://127.0.0.1:4000//images/data_science.png" alt="" /></p>
+
+<h2 id="why-cc-madrid">Why C/C++ Madrid?</h2>
+
+<h2 id="why-mountain-gorillas">Why Mountain Gorillas?</h2>
 
       
         <hr />

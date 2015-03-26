@@ -10,53 +10,88 @@ image:
   creditlink:
 ---
 
-My name is David Sánchez Falero. Software Engineer. Interesting in Machine Learning, Deep Learning, Python, Robotic and Mountain Gorillas. Co-organizer of C/C++ Madrid.
+My name is David Sánchez Falero. Software Engineer. Interesting in Machine Learning, Deep Learning, Python, Robotic and Mountain Gorillas. Co-organizer of C/C++ Madrid. 
 
-## CV
+## Why Python?
 
-### EDUCATION
+I started with Python in 2013 and I fell in love. I love the way of code python, how you can prototype all you want in just hours. 
 
-#### UNIVERSIDAD DE LEON
+I know that it isn't as fast as C++, but it is more agile and pretty. It is impressive the few time you need to convert an idea in code.
 
-(2014 - currently)
+For example, in the following codes you have an example with fibonacci in python (6 lines), C++ (23 lines), Java (13 lines).
 
-[Engineering degree, in Industrial Electronics and Atomation](http://www.unileon.es/).
+**fibonacci.py**
 
+{% highlight python %}
+def fib(n):
+    a, b = 0, 1
+    while a < n:
+        print a
+        a, b = b, a+b
+fib(1000)
+{% endhighlight %}
 
-#### UNIVERSIDAD POLITÉCNICA DE MADRID
+**fibonacci.cpp**
 
-(2007 - 2014)
+{% highlight cpp %}
+#include<iostream>
+ 
+using namespace std;
 
-[Industrial Technical Engineer in  Industrial Electronics, Industrial and Advanced Atomation and Industrial Computing, (7,42)](http://www.etsidi.upm.es/ETSIDI). Final thesis, 10 proposed to honors degree.
+fib(int n){ 
+    int c, first = 0, second = 1, next;
+    for ( c = 0 ; c < n ; c++ )
+    {
+        if ( c <= 1 )
+        next = c;
+    else
+    {
+        next = first + second;
+        first = second;
+        second = next;
+    }
+    cout << next << endl;
+}
 
-### EXPERIENCE
+main()
+{
+    fib(1000);
+    return 0;
+}
+{% endhighlight %}
 
+**fibonacci.java**
 
-#### [BIICODE INNOVATION S.L. (SOFTWARE ENGINEER)](https://www.biicode.com/) 
+{% highlight java %}
+public class Fibona {
 
-**Jun. 2013 - currently**
+    public static void main(String[] args) {
+    int elemento = 1000, ant = 0, act = 1, next = 1;
 
-Development of a file oriented dependency manager for C/C++, and other languages like Node.js.
+    System.out.print("0, ");
+    for (int i = 0; i < elemento - 1; i++) {
+        System.out.print(next + " ");
+        next = act + ant;
+        ant = act;
+        act = next;
+        }
+    }
+}
+{% endhighlight %}
 
-Development of a CLI (Python), Backend (Python, Bottle), Front-end (HTML, CSS y AngularJS) y web-testing (Selenium).
-Management of the continuous integration system (Buildbot, Docker and CoreOS) for testing, package y deploy of the client, server and web.
+## Why Machine Learning?
 
-Study of new languages (Python, C/C++, Fortran, node.js, Java) and tools (Cmake, Gradle, Ant). Development of cross compilation tools (Arduino y Raspberry Pi).
+When I was young I dream with the idea of build my own Robot with full intelillence. 
 
-### SKILLS:
+## Why Robotics?
 
-- **Languages:** English, Spanish.
-- **Programming Languages:** Python, PyQt , C/C++ , CMake, Arduino, HTML, CSS, Javascript.
-- **Tools:** Git, buildbot, TravisCI, Appveyor, CoreOS, Docker, AngularJS, Eclipse, Readmine.
-- **Systems:** Linux (Debian, RPM, Raspbian), Windows and Mac.
-- **Other:** 3D design and printing, Autodesk Inventor, robotics, embedded systems.
+## What can I spect learning it?
 
-### OTHER EXPERIENCE:
+Maths + Hacking + expertise
 
-- [Co-organizer of C/C++ Madrid](www.meetup.com/Madrid-C-Cpp).
-- I colaborate with ["The Dian Fossey Gorilla Fund International"](http://gorillafund.org/).
+![]({{site.url}}/images/data_science.png)
+{: .image-pull-center}
 
-### INTERESTS:
+## Why C/C++ Madrid?
 
-- **Professionals:** Machine Learning, Python, Backend, Software testing and Continuous integration.
-- **Personal:** travel, robotics and 3D design and printing.
+## Why Mountain Gorillas?
