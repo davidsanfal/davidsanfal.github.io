@@ -31,7 +31,7 @@ tags: [cv]
 
 Development of a file oriented dependency manager for C/C++, and other languages like Node.js.
 
-Development of a CLI (Python), Backend (Python, Bottle), Front-end (HTML, CSS y AngularJS) y web-testing (Selenium).
+Development of a CLI (Python), Backend (Python, Bottle), Front-end (HTML, CSS y AngularJS) and web-testing (Selenium).
 Management of the continuous integration system (Buildbot, Docker and CoreOS) for testing, package y deploy of the client, server and web.
 
 Study of new languages (Python, C/C++, Fortran, node.js, Java) and tools (Cmake, Gradle, Ant). Development of cross compilation tools (Arduino y Raspberry Pi).
