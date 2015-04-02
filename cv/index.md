@@ -31,10 +31,10 @@ tags: [cv]
 
 Development of a file oriented dependency manager for C/C++, and other languages like Node.js.
 
-Development of a CLI (Python), Backend (Python, Bottle), Front-end (HTML, CSS y AngularJS) and web-testing (Selenium).
-Management of the continuous integration system (Buildbot, Docker and CoreOS) for testing, package y deploy of the client, server and web.
+Development of a CLI ([Python](https://www.python.org/)), Backend (Python, [Bottle](http://bottlepy.org/docs/dev/index.html)), Frontend (HTML, CSS y [AngularJS](https://angularjs.org/)) and web-testing ([Selenium](http://www.seleniumhq.org/)).
+Management of the continuous integration system ([Buildbot](http://buildbot.net/), [Docker](https://www.docker.com/) and [CoreOS](https://coreos.com/)) for testing, package y deploy the client, server and web.
 
-Study of new languages (Python, C/C++, Fortran, node.js, Java) and tools (Cmake, Gradle, Ant). Development of cross compilation tools (Arduino y Raspberry Pi).
+Study of new languages (Python, C/C++, Fortran, [node.js](https://nodejs.org/), Java) and tools ([Cmake](http://www.cmake.org/), [Gradle](https://gradle.org/), [Ant](http://ant.apache.org/)). Development of cross compilation tools ([Arduino](http://www.arduino.cc/) y [Raspberry Pi](http://www.raspberrypi.org/)).
 
 ### SKILLS:
 
