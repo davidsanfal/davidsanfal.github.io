@@ -12,13 +12,19 @@ image:
 
 My name is David Sánchez Falero. Software Engineer. Interesting in Machine Learning, Python, Robotic and Mountain Gorillas. Co-organizer of C/C++ Madrid.
 
+- - -
+
 ## Why Mountain Gorillas?
 
 All the people have their secrets love, the mountain gorrillas are mine. I discovered they when I was watching a documentary in the TV "Titus the gorilla king", when I saw what we were doing with these animals I decided to help with one of the organizations who are helping them, ["The Dian Fossey Gorilla Fund International"](http://gorillafund.org/).
 
+- - -
+
 ## Why Machine Learning?
 
 When I was young my dream was to create a robot capable of learning and I have never lost this dream. For this reason, I try to read and learn about Machine Learning, Neural networks and Deep Leanings always I have some time.
+
+- - -
 
 ## Why Python?
 
@@ -84,6 +90,8 @@ main()
     return 0;
 }
 {% endhighlight %}
+
+- - -
 
 ## Why C/C++ Madrid?
 
