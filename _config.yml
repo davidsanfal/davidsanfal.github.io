@@ -2,8 +2,8 @@
 
 title:            Home
 locale:           en_US
-# url:              http://davidsanfal.github.io # remote (deploy)
-url:              http://127.0.0.1:4000/ # local (debugging)              
+url:              http://davidsanfal.github.io # remote (deploy)
+# url:              http://127.0.0.1:4000/ # local (debugging)              
 
 
 # Jekyll configuration
