@@ -10,7 +10,7 @@ image:
   creditlink:
 ---
 
-My name is David Sánchez Falero. Software Engineer. Interesting in Machine Learning, Python, Robotic and Mountain Gorillas. Co-organizer of C/C++ Madrid.
+My name is David Sánchez Falero. Software Engineer. Interested in Machine Learning, Python, Robotic and Mountain Gorillas. Co-organizer of C/C++ Madrid.
 
 ## Why Mountain Gorillas?
 
