@@ -10,7 +10,15 @@ image:
   creditlink:
 ---
 
-My name is David Sánchez Falero. Software Engineer. Interesting in Machine Learning, Deep Learning, Python, Robotic and Mountain Gorillas. Co-organizer of C/C++ Madrid. 
+My name is David Sánchez Falero. Software Engineer. Interesting in Machine Learning, Python, Robotic and Mountain Gorillas. Co-organizer of C/C++ Madrid.
+
+## Why Mountain Gorillas?
+
+All the people have their secrets love, the mountain gorrillas are mine. I discovered they when I was watching a documentary in the TV "Titus the gorilla king", when I saw what we were doing with these animals I decided to help with one of the organizations who are helping them, ["The Dian Fossey Gorilla Fund International"](http://gorillafund.org/).
+
+## Why Machine Learning?
+
+When I was young my dream was to create a robot capable of learning and I have never lost this dream. For this reason, I try to read and learn about Machine Learning, Neural networks and Deep Leanings always I have some time.
 
 ## Why Python?
 
@@ -18,7 +26,23 @@ I started with Python in 2013 and I fell in love. I love the way of code python,
 
 I know that it isn't as fast as C++, but it is more agile and pretty. It is impressive the few time you need to convert an idea in code.
 
-For example, in the following codes you have an example with fibonacci in python (6 lines), C++ (23 lines), Java (13 lines).
+![]({{ site.url }}/images/py_vs_cpp.png)
+
+For example, in the following code you have an implementation of the fibonacci Sequence in python (6 lines) and C++ (23 lines).
+
+**[Fibonacci Number by wikipedia.org](http://en.wikipedia.org/wiki/Fibonacci_number)**
+
+> In mathematical terms, the sequence Fn of Fibonacci numbers is defined by the recurrence relation
+> 
+> ![](http://upload.wikimedia.org/math/0/c/e/0cebc512d9a3ac497eda6f10203f792e.png)
+> 
+> with seed values
+> 
+> ![](http://upload.wikimedia.org/math/4/3/d/43d30dc03ffec0a82d4471f1009ef519.png)
+> 
+> or
+> 
+> ![](http://upload.wikimedia.org/math/a/9/2/a92c5f0981136ba333124cdfe6d3c3ce.png) 
 
 **fibonacci.py**
 
@@ -38,7 +62,8 @@ fib(1000)
  
 using namespace std;
 
-fib(int n){ 
+fib(int n)
+{ 
     int c, first = 0, second = 1, next;
     for ( c = 0 ; c < n ; c++ )
     {
@@ -60,38 +85,8 @@ main()
 }
 {% endhighlight %}
 
-**fibonacci.java**
-
-{% highlight java %}
-public class Fibona {
-
-    public static void main(String[] args) {
-    int elemento = 1000, ant = 0, act = 1, next = 1;
-
-    System.out.print("0, ");
-    for (int i = 0; i < elemento - 1; i++) {
-        System.out.print(next + " ");
-        next = act + ant;
-        ant = act;
-        act = next;
-        }
-    }
-}
-{% endhighlight %}
-
-## Why Machine Learning?
-
-When I was young I dream with the idea of build my own Robot with full intelillence. 
-
-## Why Robotics?
-
-## What can I spect learning it?
-
-Maths + Hacking + expertise
-
-![]({{site.url}}/images/data_science.png)
-{: .image-pull-center}
-
 ## Why C/C++ Madrid?
 
-## Why Mountain Gorillas?
+I funded [C/C++ Madrid](http://www.meetup.com/Madrid-C-Cpp) with my friend [Francisco Fernandez](https://github.com/fcofdez) in 2014 because we were locking for a Meetup about it and we didn't find nothing. I don't have good skill with C/C++ but it is the language with which I learned to program and one of the most efficient, so I am always trying to improve my level.
+
+[![C/C++ Madrid]({{ site.url }}/images/banner.png)](http://www.meetup.com/Madrid-C-Cpp)

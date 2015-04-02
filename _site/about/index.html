@@ -155,7 +155,15 @@
   <article class="page">
     <h1>About me</h1>
     <div class="article-wrap">
-      <p>My name is David Sánchez Falero. Software Engineer. Interesting in Machine Learning, Deep Learning, Python, Robotic and Mountain Gorillas. Co-organizer of C/C++ Madrid.</p>
+      <p>My name is David Sánchez Falero. Software Engineer. Interesting in Machine Learning, Python, Robotic and Mountain Gorillas. Co-organizer of C/C++ Madrid.</p>
+
+<h2 id="why-mountain-gorillas">Why Mountain Gorillas?</h2>
+
+<p>All the people have their secrets love, the mountain gorrillas are mine. I discovered they when I was watching a documentary in the TV “Titus the gorilla king”, when I saw what we were doing with these animals I decided to help with one of the organizations who are helping them, <a href="http://gorillafund.org/">“The Dian Fossey Gorilla Fund International”</a>.</p>
+
+<h2 id="why-machine-learning">Why Machine Learning?</h2>
+
+<p>When I was young my dream was to create a robot capable of learning and I have never lost this dream. For this reason, I try to read and learn about Machine Learning, Neural networks and Deep Leanings always I have some time.</p>
 
 <h2 id="why-python">Why Python?</h2>
 
@@ -163,7 +171,25 @@
 
 <p>I know that it isn’t as fast as C++, but it is more agile and pretty. It is impressive the few time you need to convert an idea in code.</p>
 
-<p>For example, in the following codes you have an example with fibonacci in python (6 lines), C++ (23 lines), Java (13 lines).</p>
+<p><img src="http://127.0.0.1:4000//images/py_vs_cpp.png" alt="" /></p>
+
+<p>For example, in the following code you have an implementation of the fibonacci Sequence in python (6 lines) and C++ (23 lines).</p>
+
+<p><strong><a href="http://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci Number by wikipedia.org</a></strong></p>
+
+<blockquote>
+  <p>In mathematical terms, the sequence Fn of Fibonacci numbers is defined by the recurrence relation</p>
+
+  <p><img src="http://upload.wikimedia.org/math/0/c/e/0cebc512d9a3ac497eda6f10203f792e.png" alt="" /></p>
+
+  <p>with seed values</p>
+
+  <p><img src="http://upload.wikimedia.org/math/4/3/d/43d30dc03ffec0a82d4471f1009ef519.png" alt="" /></p>
+
+  <p>or</p>
+
+  <p><img src="http://upload.wikimedia.org/math/a/9/2/a92c5f0981136ba333124cdfe6d3c3ce.png" alt="" /></p>
+</blockquote>
 
 <p><strong>fibonacci.py</strong></p>
 
@@ -180,7 +206,8 @@
  
 <span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
 
-<span class="n">fib</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">){</span> 
+<span class="n">fib</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span> 
     <span class="kt">int</span> <span class="n">c</span><span class="p">,</span> <span class="n">first</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">second</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">next</span><span class="p">;</span>
     <span class="k">for</span> <span class="p">(</span> <span class="n">c</span> <span class="o">=</span> <span class="mi">0</span> <span class="p">;</span> <span class="n">c</span> <span class="o">&lt;</span> <span class="n">n</span> <span class="p">;</span> <span class="n">c</span><span class="o">++</span> <span class="p">)</span>
     <span class="p">{</span>
@@ -201,38 +228,11 @@
     <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
 <span class="p">}</span></code></pre></div>
 
-<p><strong>fibonacci.java</strong></p>
-
-<div class="highlight"><pre><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Fibona</span> <span class="o">{</span>
-
-    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-    <span class="kt">int</span> <span class="n">elemento</span> <span class="o">=</span> <span class="mi">1000</span><span class="o">,</span> <span class="n">ant</span> <span class="o">=</span> <span class="mi">0</span><span class="o">,</span> <span class="n">act</span> <span class="o">=</span> <span class="mi">1</span><span class="o">,</span> <span class="n">next</span> <span class="o">=</span> <span class="mi">1</span><span class="o">;</span>
-
-    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">&quot;0, &quot;</span><span class="o">);</span>
-    <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">elemento</span> <span class="o">-</span> <span class="mi">1</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
-        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="n">next</span> <span class="o">+</span> <span class="s">&quot; &quot;</span><span class="o">);</span>
-        <span class="n">next</span> <span class="o">=</span> <span class="n">act</span> <span class="o">+</span> <span class="n">ant</span><span class="o">;</span>
-        <span class="n">ant</span> <span class="o">=</span> <span class="n">act</span><span class="o">;</span>
-        <span class="n">act</span> <span class="o">=</span> <span class="n">next</span><span class="o">;</span>
-        <span class="o">}</span>
-    <span class="o">}</span>
-<span class="o">}</span></code></pre></div>
-
-<h2 id="why-machine-learning">Why Machine Learning?</h2>
-
-<p>When I was young I dream with the idea of build my own Robot with full intelillence.</p>
-
-<h2 id="why-robotics">Why Robotics?</h2>
-
-<h2 id="what-can-i-spect-learning-it">What can I spect learning it?</h2>
-
-<p>Maths + Hacking + expertise</p>
-
-<p class="image-pull-center"><img src="http://127.0.0.1:4000//images/data_science.png" alt="" /></p>
-
 <h2 id="why-cc-madrid">Why C/C++ Madrid?</h2>
 
-<h2 id="why-mountain-gorillas">Why Mountain Gorillas?</h2>
+<p>I funded <a href="http://www.meetup.com/Madrid-C-Cpp">C/C++ Madrid</a> with my friend <a href="https://github.com/fcofdez">Francisco Fernandez</a> in 2014 because we were locking for a Meetup about it and we didn’t find nothing. I don’t have good skill with C/C++ but it is the language with which I learned to program and one of the most efficient, so I am always trying to improve my level.</p>
+
+<p><a href="http://www.meetup.com/Madrid-C-Cpp"><img src="http://127.0.0.1:4000//images/banner.png" alt="C/C++ Madrid" /></a></p>
 
       
         <hr />
