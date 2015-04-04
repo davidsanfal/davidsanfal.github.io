@@ -10,4 +10,4 @@ image:
 
 # David Sánchez Falero
 
-Software Engineer. Interesting in Machine Learning, Python, Robotic and Mountain Gorillas.
+Software Engineer. Interested in Machine Learning, Python, Robotic and Mountain Gorillas.
