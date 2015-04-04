@@ -15,7 +15,7 @@ Last update: 04-04-2015.
 
 I believe that you can learn all you want in internet. However, there are situation in which a good book can help you to learn in deep about something or to begin to learn about it.
 
-In any case, here is the book list with my favorite books or with ones I really want to read when I have time. I hope that you enjoy it!
+In any case, here is the book list with my favorite books or with ones I really want to read. I hope that you enjoy it!
 
 I'll try to update this list when I have more time with more books and summaries about why they are interesting.
 
