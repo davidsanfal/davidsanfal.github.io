@@ -5,6 +5,10 @@ modified:
 excerpt:
 comments: true
 tags: [cv]
+image:
+  feature: blue.png
+  credit: David Sánchez Falero
+  creditlink:
 ---
 
 <div markdown="0">
