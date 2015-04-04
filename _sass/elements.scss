@@ -164,3 +164,57 @@ svg:not(:root) {
 	@include rounded(4px);
 	@include box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.05));
 }
+
+/* 
+   Labels
+   ========================================================================== */
+
+/* Default button */
+
+.label {
+  display: inline-block;
+  margin: 2px 10px;
+  padding: 0px 4px;
+  @include font-rem(14);
+  font-family: $heading-font;
+  font-weight: 700;
+  background-color: $primary;
+  color: $white;
+  border-width: 2px !important;
+  border-style: solid !important;
+  border-color: $primary;
+  text-decoration: none !important;
+  @include rounded(3px);
+}
+
+/* Success button */
+
+.label-success {
+  background-color: $success;
+  color: $white;
+  border-color: $success;
+}
+
+/* Warning button */
+
+.label-warning {
+  background-color: $warning;
+  color: $white;
+  border-color: $warning;
+}
+
+/* Danger button */
+
+.label-danger {
+  background-color: $danger;
+  color: $white;
+  border-color: $danger;
+}
+
+/* Information button */
+
+.label-info {
+  background-color: $info;
+  color: $white;
+  border-color: $info;
+}

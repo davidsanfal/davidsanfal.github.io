@@ -7,6 +7,11 @@ comments: true
 tags: [cv]
 ---
 
+<div markdown="0">
+	<a href="{{ site.url }}/data/cv_es.pdf" target="_blank" class="btn">CV(es) in PDF</a>
+	<a href="{{ site.url }}/data/cv_en.pdf" target="_blank" class="btn">CV(en) in PDF</a>
+</div>
+
 ### EDUCATION
 
 #### UNIVERSIDAD DE LEON
