@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "My Books List"
+comments: true
 modified:
 categories: 
 excerpt:
