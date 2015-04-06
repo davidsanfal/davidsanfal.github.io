@@ -3,7 +3,7 @@ layout: page
 title: "CV"
 modified:
 excerpt:
-comments: true
+comments: false
 tags: [cv]
 image:
   feature: blue.png
