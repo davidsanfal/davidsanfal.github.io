@@ -87,6 +87,6 @@ main()
 
 ## Why C/C++ Madrid?
 
-I funded [C/C++ Madrid](http://www.meetup.com/Madrid-C-Cpp) with my friend [Francisco Fernandez](https://github.com/fcofdez) in 2014 because we were locking for a Meetup about it and we didn't find nothing. I don't have good skill with C/C++ but it is the language with which I learned to program and one of the most efficient, so I am always trying to improve my level.
+I funded [C/C++ Madrid](http://www.meetup.com/Madrid-C-Cpp) with my friend [Francisco Fernandez](https://github.com/fcofdez) in 2014 because we were looking for a Meetup about it and we didn't find nothing. I don't have good skill with C/C++ but it is the language with which I learned to program and one of the most efficient, so I am always trying to improve my level.
 
 [![C/C++ Madrid]({{ site.url }}/images/banner.png)](http://www.meetup.com/Madrid-C-Cpp)
